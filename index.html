@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!------box icons link----->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Shubham Argade</h1>
+            <p> Hi everyone, My name is Shubham, and I am a fresher engineering student. I hail from Pune and have
+                always been passionate about engineering and technology. </p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/shubham-argade-8a3a5a211/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/ShubhamAr09"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                
+            </div>
+
+            <a href="shubham_argade.pdf" id="downloadBtn" class="btn">Download CV</a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0">
+                    <i class='bx bxs-chess'></i>
+                    <h3>Playing Chess</h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class='bx bx-book-open'></i>
+                    <h3>Reading Books</h3>
+                </div>
+                <div class="profession" style="--i:2">
+                    <i class='bx bx-dumbbell' ></i>
+                    <h3>Working Out</h3>
+                </div>
+                <div class="profession" style="--i:3">
+                    <i class='bx bx-cricket-ball'></i>
+                    <h3>Playing Cricket</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="home-img">
+                <img src="images/image1.png" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/pfimage.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi , I m a computer science student...</h3>
+            <p> I am an enginnering student who is innovative and creative. My interests are in software development
+                which can be helpful for solving real-world problems.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="skills">
+        <div class="main-text">
+            <h2 class="skill-heading">My <span>Skills</span></h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Programming Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML/CSS</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <div class="html"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JAVA</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="bar">
+                        <div class="java"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>BOOTSTRAP</p>
+                        <p>75%</p>
+                    </div>
+                    <div class="bar">
+                        <div class="bootstrap"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JAVASCRIPT</p>
+                        <p>55%</p>
+                    </div>
+                    <div class="bar">
+                        <div class="javascript"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>GIT-HUB</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <div class="github"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="skill-right">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="small-circle" data-dots="100" data-percent="85"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Time Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="small-circle" data-dots="100" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Decision Making</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="small-circle" data-dots="100" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="small-circle" data-dots="100" data-percent="75"></div>
+                        <div class="text">
+                            <big>75%</big>
+                            <small>Leadership</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="small-circle" data-dots="100" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="small-circle" data-dots="100" data-percent="85"></div>
+                        <div class="text">
+                            <big>75%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects-section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="projects-box">
+                <img src="images/mern.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>E-Commerce Website</h4>
+                    <p>MERN e-commerce site with admin dashboard for seamless product management, user orders, and status updates.</p>
+                    <a href="https://fair-plum-scarab-hat.cyclic.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+           
+
+            <div class="projects-box">
+                <img src="images/project2.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>MEAN Project</h4>
+                    <p>I have created a crud application using MEAN Stack technology.</p>
+                    <a href="https://statuesque-gnome-eb3c26.netlify.app"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="images/project1.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>It is a simple Loan Website which I have developed using html, css, bootstrap and javascript.</p>
+                    <a href="https://shubhamar09.github.io/LoanWebisteUI/"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="projects-box">
+                <img src="images/project4.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>Spotify Clone</h4>
+                    <p>It is a simple music player like Soptify which I have developed using React</p>
+                    <a href="https://spotifyclone-a3161.web.app"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="images/java.png" alt="">
+
+                <div class="projects-layer">
+                    <h4>Banking App - CRUD</h4>
+                    <p>This CRUD application enables seamless management of customer accounts, supporting operations like account creation, deposits, withdrawals, and transaction history.</p>
+                    <a href="https://github.com/ShubhamAr09/BankingCrudApplication"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="images/Portfolio.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript. Implemented a sleek and responsive design to showcase my skills, projects, and achievements</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- certificates -->
+    <div class="certificates-container">
+        <h2 class="heading">Certifications</h2>
+
+        <div class="certificates-wrapper">
+            <div class="certificates-box mySwiper">
+                <div class="certificates-content swiper-wrapper">
+                    <div class="certificates-slide swiper-slide">
+                        <img src="images/cert1.jpg" alt="">
+                    </div>
+
+                    <div class="certificates-slide swiper-slide">
+                        <img src="images/cert2.png" alt="">
+                    </div>
+
+                    <div class="certificates-slide swiper-slide">
+                        <img src="images/cert3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form>
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="text" name="Mobile" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" name="Message" value="Send Message" class="btn">
+
+        </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Developed by Shubham Argade | 2023</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
